@@ -1,8 +1,11 @@
 .profile-pic {
     border-radius: 50% 50%;
-    width:5%;
-    height:5%;
+    width:95%;
+    height:95%;
     flex: auto;
+    padding-left:2.5%;
+    top: -65px;
+    position:relative;
 }
 
 h1 {
@@ -16,7 +19,6 @@ body nav {
     font-size: x-large;
     height: 25px;
     padding: 25px;
-    color:grey;
 }
 
 body nav a {
@@ -24,4 +26,41 @@ body nav a {
     padding-left: 15px;
     text-decoration: none;
     color: whitesmoke;
+}
+
+aside {
+    background-color: rgb(190, 119, 163);
+    width: 325px;
+    height: fit-content;
+}
+
+aside h1 {
+    color: whitesmoke;
+    text-align:center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 60px;
+    position: relative;
+    top: -50px;
+}
+
+aside h2 {
+    color:whitesmoke;
+    text-align:center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    position: relative;
+    top: -24px;
+}
+
+aside p {
+    color:whitesmoke;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    margin-left: 5px;
+
+}
+
+hr {
+    height: 1px;
+    background-color: whitesmoke;
 }
