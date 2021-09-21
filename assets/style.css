@@ -1,16 +1,18 @@
-.profile-pic {
-    border-radius: 50% 50%;
-    width:95%;
-    height:95%;
-    flex: auto;
-    padding-left:2.5%;
-    top: -65px;
-    position:relative;
+html {
+    background-color: rgb(190, 119, 163);
+}
+
+div {
+    display: flex;
 }
 
 h1 {
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+
+/* body { 
+    display: flex;
+} */
 
 body nav {
     background-color: rgb(190, 119, 163);
@@ -19,6 +21,7 @@ body nav {
     font-size: x-large;
     height: 25px;
     padding: 25px;
+    margin: 0px;
 }
 
 body nav a {
@@ -26,12 +29,24 @@ body nav a {
     padding-left: 15px;
     text-decoration: none;
     color: whitesmoke;
+    justify-content: right;
+}
+
+.profile-pic {
+    border-radius: 50% 50%;
+    width:95%;
+    height:95%;
+    flex: 0 0 1;
+    padding-left:2.5%;
+    top: -65px;
+    position:relative;
 }
 
 aside {
     background-color: rgb(190, 119, 163);
     width: 325px;
-    height: fit-content;
+    margin-bottom: -150px;
+    flex-direction: column;
 }
 
 aside h1 {
@@ -57,10 +72,31 @@ aside p {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 20px;
     margin-left: 5px;
-
 }
 
 hr {
     height: 1px;
     background-color: whitesmoke;
+}
+
+section {
+    position:relative;
+    top: -650px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 75px;
+    background-color: rgb(190, 119, 163);
+    color: whitesmoke;
+    margin-left: 350px;
+    flex-direction: row;
+}
+
+section h1 {
+    position: relative;
+    left: 40px;
+}
+
+section img {
+ position: relative;
+ top: 40px;
+ left: 40px;
 }
