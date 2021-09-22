@@ -38,5 +38,5 @@ Install 'professional portfolio' with github fork function (tab down of green co
   
 ## Screenshots
 
-![Site Screenshot](https://ibb.co/K5wKJKr)
+![Site Screenshot](\images\snapshot.png)
   
