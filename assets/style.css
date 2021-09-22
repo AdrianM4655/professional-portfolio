@@ -10,10 +10,6 @@ h1 {
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-/* body { 
-    display: flex;
-} */
-
 body nav {
     background-color: rgb(190, 119, 163);
     text-align: right;
@@ -29,7 +25,6 @@ body nav a {
     padding-left: 15px;
     text-decoration: none;
     color: whitesmoke;
-    justify-content: right;
 }
 
 .profile-pic {
@@ -47,6 +42,7 @@ aside {
     width: 325px;
     margin-bottom: -150px;
     flex-direction: column;
+    display: block;
 }
 
 aside h1 {
@@ -71,17 +67,37 @@ aside p {
     color:whitesmoke;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 20px;
-    margin-left: 5px;
+    margin-left: 17.5px;
+}
+
+aside h3 {
+    position: relative;
+    top: 20px;
+    color: whitesmoke;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 45px;
+    text-align: center;
+}
+
+aside li {
+    position: relative;
+    top: 20px;
+    color: whitesmoke;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 15px;
+    list-style: none;
+    font-size: 23px;
 }
 
 hr {
     height: 1px;
     background-color: whitesmoke;
+    margin-left: 15px;
 }
 
 section {
     position:relative;
-    top: -650px;
+    top: -900px;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 75px;
     background-color: rgb(190, 119, 163);
@@ -99,4 +115,32 @@ section img {
  position: relative;
  top: 40px;
  left: 40px;
+}
+
+@media screen and (max-width: 775px) {
+    body nav a {
+        display: flex;
+        flex-wrap:wrap;
+        max-width: 775px;
+        justify-content: right;
+
+    }
+
+    .profile-pic {
+        display: flex;
+        flex-wrap:wrap;
+        max-width: 775px;
+        margin: auto;
+    }
+
+    aside h1 {
+        display: flex;
+        flex-wrap:wrap;
+        max-width: 775px;
+    }
+
+    div section {
+        
+    }
+
 }
