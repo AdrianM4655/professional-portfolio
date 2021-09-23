@@ -7,6 +7,10 @@ A project create in order to show off my own work! This inclues diffrent code I 
 
 https://shamika69.github.io/professional-portfolio/
 
+## Screenshots
+
+![Site Screenshot](https://media.giphy.com/media/Qvi7dmdJgWx9HaBaGQ/giphy.gif?cid=790b76117005e9760eb88aa0aee34470b01428444cb17180&rid=giphy.gif&ct=g)
+
   
 ## Installation
 
@@ -33,10 +37,24 @@ Install 'professional portfolio' with github fork function (tab down of green co
   
 ## License
 
+## Code Snippit
+```html 
+<aside>
+    <img class="profile-pic" src="./images/IMG_0010.jpg" />
+    <h1>Adrian Magana</h1>
+    <h2>About Myself</h2> <span id="aboutme"></span>
+    <hr>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime   mollitia,
+    molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum
+    numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium
+    optio, eaque rerum! Provident similique accusantium nemo autem. Veritatis
+    obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam
+    nihil, eveniet aliquid culpa officia aut! Impedit sit sunt quaerat, odit,
+    tenetur error, harum nesciunt ipsum debitis quas aliquid. Reprehenderit,
+    quia. Quo neque error repudiandae fuga? Ipsa laudantium molestias 
+    </p>
+</aside>
+```
+
 [UCB BootCamp] : (https://bootcamp.berkeley.edu/)
-
-  
-## Screenshots
-
-![Site Screenshot](\images\snapshot.png)
   
